@@ -9,9 +9,10 @@ class CashRegister
     puts "@discount: #{@discount}"
   end
 
-  def add_item(title, price)
+  def add_item(title, price, *quantity)
     @title = title
     @price = price
+    @quantity = quantity
     @total += price
   end
 
