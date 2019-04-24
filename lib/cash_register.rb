@@ -1,6 +1,6 @@
 class CashRegister
 
-  attr_accessor :item, :quantity, :price, :total, :discount
+  attr_accessor :title, :quantity, :price, :total, :discount
 
   def initialize(discount = 0)
     @total = 0
@@ -10,7 +10,9 @@ class CashRegister
   end
 
   def add_item(title, price)
-
+    @title = title
+    @price = price
+    @total += price
   end
 
 end
