@@ -16,7 +16,7 @@ class CashRegister
     quantity.do
       @@items << title
     end
-    
+
     @price = price
     @quantity = quantity
     @total += price * quantity
