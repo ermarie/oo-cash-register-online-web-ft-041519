@@ -9,4 +9,8 @@ class CashRegister
     puts "@discount: #{@discount}"
   end
 
+  def add_item(title, price)
+    
+  end
+
 end
