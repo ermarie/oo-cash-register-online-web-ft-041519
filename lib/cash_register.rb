@@ -6,9 +6,7 @@ class CashRegister
 
   def initialize(discount = 0)
     @total = 0
-    puts "discount: #{discount}"
     @discount = discount
-    puts "@discount: #{@discount}"
   end
 
   def add_item(title, price, quantity = 1)
