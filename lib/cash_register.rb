@@ -19,6 +19,7 @@ class CashRegister
   def apply_discount
     puts "total: #{@total}, discount: #{@discount}"
     @total = @total * (100 * @discount / 100)
+    @total
   end
 
 end
