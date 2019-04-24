@@ -22,6 +22,7 @@ class CashRegister
     new_total = 100 - @discount
     puts "new_total: #{new_total}"
     @total = new_total * 10
+    puts "total: #{@total}"
   end
 
 end
