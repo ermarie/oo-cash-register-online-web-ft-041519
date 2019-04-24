@@ -17,12 +17,10 @@ class CashRegister
   end
 
   def apply_discount
-    puts "total: #{@total}, discount: #{@discount}"
     new_total = 0
     new_total = 100 - @discount
-    puts "new_total: #{new_total}"
     @total = new_total * 10
-    puts "total: #{@total}"
+    puts "After the discount, the total comes to #{@total}."
   end
 
 end
