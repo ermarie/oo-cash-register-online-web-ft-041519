@@ -21,6 +21,7 @@ class CashRegister
     new_total = 100 - @discount
     @total = new_total * 10
     puts "After the discount, the total comes to #{@total}."
+    @total
   end
 
 end
